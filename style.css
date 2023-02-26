@@ -1,0 +1,72 @@
+/* Reset styles */
+html, body, header, main, footer {
+    margin: 0;
+    padding: 0;
+  }
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  /* Header styles */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+  }
+  nav {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  section p {
+    line-height: 1.5;
+  }
+  section ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
